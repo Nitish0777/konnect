@@ -1,0 +1,148 @@
+.sticky-container {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  right: -130px;
+  top: 200px;
+  width: 210px;
+  z-index: 1100;
+}
+
+.sticky li {
+  list-style-type: none;
+  background-color: #fff;
+  color: #efefef;
+  height: 43px;
+  padding: 0px;
+  margin: 0px 0px 1px 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.sticky li:hover {
+  margin-left: -80px;
+}
+
+.sticky li img {
+  float: left;
+  margin: 5px 4px;
+  margin-right: 5px;
+}
+
+.sticky li p {
+  padding-top: 5px;
+  margin: 0px;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.sticky li p a {
+  text-decoration: none;
+  color: #546e7a;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
+#sticky-social {
+  right: 0;
+  position: fixed;
+  top: 25%;
+  margin-right: 10px;
+  /* background:rgba(51, 51, 51,0.8); */
+  border-radius: 25px;
+  width: 40px;
+}
+
+#sticky-social a {
+  background: #333;
+  color: #fff;
+  display: block;
+  height: 38px;
+  font: 16px "Montserrat", sans-serif;
+  line-height: 38px;
+  position: relative;
+  text-align: center;
+  width: 40px;
+  border-radius: 50%;
+}
+
+#sticky-social a span {
+  line-height: 35px;
+  left: -120px;
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  border-radius: 20px;
+  margin-left: 172px;
+}
+
+#sticky-social a:hover span {
+  right: 100%;
+}
+
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span {
+  background: #45619d;
+}
+
+#sticky-social a[class*="twitter"],
+#sticky-social a[class*="twitter"]:hover,
+#sticky-social a[class*="twitter"] span {
+  background: #55acee;
+}
+
+#sticky-social a[class*="gplus"],
+#sticky-social a[class*="gplus"]:hover,
+#sticky-social a[class*="gplus"] span {
+  background: #d73d32;
+}
+
+#sticky-social a[class*="linkedin"],
+#sticky-social a[class*="linkedin"]:hover,
+#sticky-social a[class*="linkedin"] span {
+  background: #0077b5;
+}
+
+#sticky-social a[class*="instagram"],
+#sticky-social a[class*="instagram"]:hover,
+#sticky-social a[class*="instagram"] span {
+  background: #2a5b83;
+}
+
+#sticky-social a[class*="reddit"],
+#sticky-social a[class*="reddit"]:hover,
+#sticky-social a[class*="reddit"] span {
+  background: #f05825;
+}
+
+#sticky-social a[class*="tumblr"],
+#sticky-social a[class*="tumblr"]:hover,
+#sticky-social a[class*="tumblr"] span {
+  background: #395976;
+}
+
+#sticky-social ul li {
+  transition: transform 0.2s ease-in-out;
+}
+
+#sticky-social ul li:hover {
+  transform: translateY(-5px);
+}
+
+#sticky-social ul li {
+  margin-top: 7px;
+}
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}

@@ -1,0 +1,134 @@
+.about-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.about-box {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  transition: transform 0.3s;
+  cursor: pointer;
+  border: 2px solid #6c63ff;
+  margin: 10px;
+  height: 200px;
+}
+
+.about-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.about-box p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.about-box a {
+  text-decoration: none;
+  color: #6c63ff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.about-box a:hover {
+  text-decoration: underline;
+}
+
+.about-box:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: #5d5d5d;
+}
+.links li a:hover {
+  text-decoration: underline;
+}
+.container2 {
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+}
+.about-boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.about-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: calc(
+    30% - 20px
+  ); /* Adjusted box width and margin for better spacing */
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  border: 2px solid #6c63ff;
+  margin: 10px;
+  height: 220px; /* Increased box height for better content visibility */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.about-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.about-box p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.about-box a {
+  text-decoration: none;
+  color: #6c63ff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.about-box a:hover {
+  text-decoration: underline;
+}
+
+.about-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+}
+
+/* Container Styling */
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.heroimg {
+  max-width: 30%;
+}
+.about-box .detail {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-us {
+  font-size: larger;
+}

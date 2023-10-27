@@ -1,0 +1,149 @@
+/* Form.css */
+/*.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #1e3c72; 
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+*/
+
+.form_container {
+  position: absolute;
+  width: 400px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  z-index: 200;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+  position: relative;
+  top: 5;
+  left: -5;
+  right: 0;
+  bottom: 0;
+  z-index: 100; /* Should be lower than the modal */
+}
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.modal_content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.file_upload {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.upload_icon {
+  margin-right: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: blue;
+  color: white; /* Turquoise submit button */
+}
+
+.file_upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.upload_btn_wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.upload_btn_wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.upload_icon {
+  margin-right: 10px;
+  font-size: 24px;
+  color: black; /* Turquoise color */
+}
+.upload_btn_wrapper button:hover {
+  background-color: blue;
+}
+
+.drop_zone {
+  margin-left: 15px;
+  width: 90%;
+  border: 2px dashed black; /* Turquoise dashed border for drop zone */
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.drop_zone.active {
+  background-color: #f0f8ff; /* Light blue background for active drop zone */
+}
+
+.drop_zone input {
+  display: none;
+}
+.buttons {
+  margin-top: 10px;
+}
